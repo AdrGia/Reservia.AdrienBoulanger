@@ -21,3 +21,26 @@ body
 	padding: 0 2em;
 	box-sizing: border-box;
 }
+
+
+/* <<<< HEADER DESKTOP >>>> */
+
+header
+{
+	display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#logo
+{
+
+}
+
+#logo img
+{
+
+}
+ul
+{
+	list-style-type: none;
+}
