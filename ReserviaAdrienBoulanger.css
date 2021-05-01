@@ -27,26 +27,38 @@ body
 
 header
 {
+	
+}
+#Reservia_Header
+{
 	display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 #logo
 {
-
+	display: flex;
+	justify-content: flex-start; 
 }
 
 #logo img
 {
+	
+}
 
 
 /* <<<< NAV >>>> */
 
 
-}
 ul
+
 {
 	display: flex;
 	justify-content: flex-end; 
 	list-style-type: none;
+}
+
+li
+{
+	padding: 15px;
 }
