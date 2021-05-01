@@ -16,6 +16,37 @@ body
 
 #bloc_page
 {
-	width: 1440px;
-	margin: auto;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 2em;
+	box-sizing: border-box;
+}
+
+
+/* <<<< HEADER DESKTOP >>>> */
+
+header
+{
+	display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#logo
+{
+
+}
+
+#logo img
+{
+
+
+/* <<<< NAV >>>> */
+
+
+}
+ul
+{
+	display: flex;
+	justify-content: flex-end; 
+	list-style-type: none;
 }
