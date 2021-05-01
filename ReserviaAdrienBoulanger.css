@@ -14,3 +14,8 @@ body
 
 }
 
+#bloc_page
+{
+	width: 1440px;
+	margin: auto;
+}
