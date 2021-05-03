@@ -35,19 +35,20 @@ body
 
 #logo_Reservia img
 {
-	width: 100px;
+	width: 120px;
 	margin-top: 20px;
 }
 
 
-/* <<<< NAV >>>> */
+/* <<<< NAV DESKTOP >>>> */
 
 
 .nav-container
 
 {
 	display: flex;
-	justify-content: flex-end; 
+	justify-content: flex-end;
+	width: 100% 
 	list-style-type: none;
 	padding: 15px;
 
@@ -55,9 +56,10 @@ body
 .Hébergements-link
 {
 	color: #0065fc;
-	border-top: solid 2px #0065fc;
+	border-top: solid 3px #0065fc;
 	padding-top: 35px;
-	margin-right: 60px;
+	border-width: 55px;
+	margin-right: 70px;
 	text-decoration: none;
 
 }
@@ -66,7 +68,7 @@ body
 {
 	text-decoration: none;
 	color: black;
-	border-top: solid 2px black;
+	border-top: solid 3px white;
 	padding-top: 35px;
 }
 
@@ -74,7 +76,7 @@ body
 {
 	color: #0065fc;
 	font-weight: bold;
-	margin-left: 60px;
+	margin-left: 70px;
 	text-decoration: none;
 
 }
