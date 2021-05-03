@@ -56,7 +56,7 @@ body
 {
 	color: #0065fc;
 	border-top: solid 2px #0065fc;
-	padding-top: 10px;
+	padding-top: 35px;
 	margin-right: 60px;
 	text-decoration: none;
 
@@ -65,11 +65,15 @@ body
 .Activités-link
 {
 	text-decoration: none;
+	color: black;
+	border-top: solid 2px black;
+	padding-top: 35px;
 }
 
 .inscrire-link
 {
 	color: #0065fc;
+	font-weight: bold;
 	margin-left: 60px;
 	text-decoration: none;
 
