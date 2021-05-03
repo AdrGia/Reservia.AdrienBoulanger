@@ -17,7 +17,7 @@ body
 #bloc_page
 {
 	max-width: 1440px;
-	margin: 0 auto;
+	margin: auto;
 	padding: 0 2em;
 	box-sizing: border-box;
 }
@@ -58,7 +58,6 @@ body
 	color: #0065fc;
 	border-top: solid 3px #0065fc;
 	padding-top: 35px;
-	border-width: 55px;
 	margin-right: 70px;
 	text-decoration: none;
 
