@@ -58,17 +58,19 @@ body
 	border-top: solid 2px #0065fc;
 	padding-top: 10px;
 	margin-right: 60px;
+	text-decoration: none;
 
 }
 
 .Activités-link
 {
-
+	text-decoration: none;
 }
 
 .inscrire-link
 {
 	color: #0065fc;
 	margin-left: 60px;
+	text-decoration: none;
 
 }
