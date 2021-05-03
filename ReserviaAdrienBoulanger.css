@@ -25,11 +25,6 @@ body
 
 /* <<<< HEADER DESKTOP >>>> */
 
-header
-{
-	
-
-}
 
 #Reservia_Header
 {
@@ -41,26 +36,39 @@ header
 #logo_Reservia img
 {
 	width: 100px;
-	margin-top: 5px;
+	margin-top: 20px;
 }
 
 
 /* <<<< NAV >>>> */
 
 
-ul
+.nav-container
 
 {
 	display: flex;
 	justify-content: flex-end; 
 	list-style-type: none;
+	padding: 15px;
+
+}
+.Hébergements-link
+{
+	color: #0065fc;
+	border-top: solid 2px #0065fc;
+	padding-top: 10px;
+	margin-right: 25px;
+
 }
 
-li
+.Activités-link
 {
-	padding: 15px;
+
 }
-nav a 
+
+.inscrire-link
 {
+	color: #0065fc;
+	margin-left: 25px;
 
 }
