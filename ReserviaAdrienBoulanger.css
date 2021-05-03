@@ -28,22 +28,20 @@ body
 header
 {
 	
+
 }
+
 #Reservia_Header
 {
 	display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
-#logo
-{
-	display: flex;
-	justify-content: flex-start; 
-}
 
-#logo img
+#logo_Reservia img
 {
-	
+	width: 100px;
+	margin-top: 5px;
 }
 
 
@@ -61,4 +59,8 @@ ul
 li
 {
 	padding: 15px;
+}
+nav a 
+{
+
 }
