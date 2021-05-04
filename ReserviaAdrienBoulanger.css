@@ -144,5 +144,15 @@ h1
 	background: #0065fc;
 	border-bottom-right-radius: 10px;
 	border-top-right-radius: 10px;
+	text-decoration: none;
+	}
 
-}
+	#filtres
+	{
+		display: flex;
+		justify-content: space-between;
+		padding-top: 15px;
+		font-weight: bold;
+		padding-right: 800px;
+	}
+	
