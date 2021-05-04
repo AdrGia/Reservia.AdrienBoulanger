@@ -105,4 +105,44 @@ h1
 	display: flex;
 	align-items: baseline;
 	padding-bottom: 20px;
+	font-size: 
+}
+
+.Marseille
+{
+	outline: none;
+	color: #F2F2F2;
+	padding: 5px;
+}
+
+#logo1
+{
+	padding-right: 10px;
+	border-bottom: 1px solid #F2F2F2;
+	padding-bottom: 7px;
+	border-left: 1px solid #F2F2F2;
+	padding-left: 9px;
+	border-top : 1px solid #F2F2F2;
+	padding-top: 4.5px;
+	background: #F2F2F2;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.Rechercher
+{
+	padding-left: 10px;
+	border-top: 1px solid #F2F2F2;
+	padding-top: 6.5px;
+	border-right: 1px solid #F2F2F2;
+	padding-right: 5px;
+	border-bottom: 1px solid #F2F2F2;
+	padding-bottom: 7px;
+	border-right: 1px solid #F2F2F2;
+	color: white;
+	font-weight: bold;
+	background: #0065fc;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+
 }
