@@ -12,8 +12,8 @@ body
 {
 	font-family: 'ralewaythin', Arial, sans-serif;
 	max-width: 1440px;
-	
-
+	font-size: 16px;
+	color: black;
 }
 
 #bloc_page
@@ -89,4 +89,20 @@ section
 {
 	margin-left: 20px;
 	margin-top: 43px;
+}
+
+h1
+{
+	font-size: 22px;
+}
+
+.para1
+{
+	font-weight: bold;
+}
+#localisation
+{
+	display: flex;
+	align-items: baseline;
+	padding-bottom: 20px;
 }
