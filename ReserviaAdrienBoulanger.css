@@ -11,12 +11,13 @@
 body
 {
 	font-family: 'ralewaythin', Arial, sans-serif;
+	max-width: 1440px;
 
 }
 
 #bloc_page
 {
-	max-width: 1440px;
+	max-width: 1350px;
 	margin: auto;
 	padding: 0 2em;
 	box-sizing: border-box;
@@ -48,7 +49,7 @@ body
 {
 	display: flex;
 	justify-content: flex-end;
-	width: 100% 
+	width: 100%;
 	list-style-type: none;
 	padding: 15px;
 
@@ -79,3 +80,5 @@ body
 	text-decoration: none;
 
 }
+
+/* <<<< HEADER MOBILE >>>> */
