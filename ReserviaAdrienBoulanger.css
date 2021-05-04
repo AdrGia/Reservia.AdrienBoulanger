@@ -155,4 +155,15 @@ h1
 		font-weight: bold;
 		padding-right: 800px;
 	}
-	
+	.eco
+	{
+		border-bottom: 3px solid #F2F2F2;
+		padding-bottom: 3px;
+		border-right: 3px solid #F2F2F2;
+		padding-right: 5px;
+		border-top: 3px solid #F2F2F2;
+		padding-top: 5px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+
+	}
