@@ -12,12 +12,13 @@ body
 {
 	font-family: 'ralewaythin', Arial, sans-serif;
 	max-width: 1440px;
+	
 
 }
 
 #bloc_page
 {
-	max-width: 1350px;
+	max-width: 1360px;
 	margin: auto;
 	padding: 0 2em;
 	box-sizing: border-box;
@@ -36,8 +37,9 @@ body
 
 #logo_Reservia img
 {
-	width: 120px;
+	width: 100px;
 	margin-top: 20px;
+	margin-left: -57px;
 }
 
 
@@ -81,4 +83,10 @@ body
 
 }
 
-/* <<<< HEADER MOBILE >>>> */
+/* <<<< SECTION DESKTOP >>>> */
+
+section
+{
+	margin-left: 20px;
+	margin-top: 43px;
+}
