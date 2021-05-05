@@ -147,7 +147,7 @@ h1
 	text-decoration: none;
 	}
 
-	#filtres
+#filtres
 	{
 		display: flex;
 		justify-content: space-between;
@@ -155,19 +155,104 @@ h1
 		font-weight: bold;
 		padding-right: 800px;
 	}
-	.eco
-	{
+
+.eco
+{
 		border-bottom: 3px solid #F2F2F2;
 		padding-bottom: 3px;
 		border-right: 3px solid #F2F2F2;
 		padding-right: 5px;
 		border-top: 3px solid #F2F2F2;
 		padding-top: 5px;
-		border-top-right-radius: 10px;
-		border-bottom-right-radius: 10px;
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;
+		padding-left: 20px;
 
-	}
-	#billet
+}
+
+#billet
+{
+	border: 2px solid #F2F2F2;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	margin-right: -2rem;
+	text-align: center;
+	line-height: 20px;
+	padding: 0.5rem;
+	background-color: #DEEBFF;
+	color: #0065fc;
+}
+
+.famille
+
+{
+	border-bottom: 3px solid #F2F2F2;
+	padding-bottom: 3px;
+	border-right: 3px solid #F2F2F2;
+	padding-right: 5px;
+	border-top: 3px solid #F2F2F2;
+	padding-top: 5px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-left: 20px;
+}
+
+#child
+{
+	border: 2px solid #F2F2F2;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	margin-right: -2rem;
+	text-align: center;
+	line-height: 20px;
+	padding: 0.5rem;
+	background-color: #DEEBFF;
+	color: #0065fc;
+}
+
+.Amour
+{
+	border-bottom: 3px solid #F2F2F2;
+	padding-bottom: 3px;
+	border-right: 3px solid #F2F2F2;
+	padding-right: 5px;
+	border-top: 3px solid #F2F2F2;
+	padding-top: 5px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-left: 20px;
+}
+
+#love
+{
+	border: 2px solid #F2F2F2;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	margin-right: -2rem;
+	text-align: center;
+	line-height: 20px;
+	padding: 0.5rem;
+	background-color: #DEEBFF;
+	color: #0065fc;
+}
+
+.Animaux
+{
+	border-bottom: 3px solid #F2F2F2;
+	padding-bottom: 3px;
+	border-right: 3px solid #F2F2F2;
+	padding-right: 5px;
+	border-top: 3px solid #F2F2F2;
+	padding-top: 5px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-left: 20px;
+}
+
+#dog
 {
 	border: 2px solid #F2F2F2;
 	border-radius: 50%;
