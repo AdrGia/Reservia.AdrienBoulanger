@@ -284,3 +284,141 @@ h1
 	line-height: 20px;
 	color: #0065fc;
 }
+
+
+/* <<<< ARTICLE DESKTOP >>>> */
+
+
+.article1
+{
+	margin-top: 30px;
+	border: 2px solid #F2F2F2;
+	border-radius: 25px;
+	padding-left: 37px;
+	background-color: #F2F2F2;
+}	
+
+h2
+{
+	padding-top: 20px;
+	font-size: 16px;
+}
+
+.cadre_maison1
+{
+	border: 1px solid #F2F2F2;
+	width: 245px;
+	height: 190px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+	background-color: white;
+}
+.maison1
+{
+	border: 1px solid white;
+	width: 237px;
+	height: 114px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+
+}
+
+.cadre_maison2
+{
+	border: 1px solid #F2F2F2;
+	width: 245px;
+	height: 190px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.maison2
+{
+	border: 1px solid white;
+	width: 237px;
+	height: 114px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.cadre_maison3
+{
+	border: 1px solid #F2F2F2;
+	width: 245px;
+	height: 190px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.maison3
+{
+	border: 1px solid white;
+	width: 237px;
+	height: 114px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.cadre_maison4
+{
+	border: 1px solid #F2F2F2;
+	width: 245px;
+	height: 190px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.maison4
+{
+	border: 1px solid white;
+	width: 237px;
+	height: 114px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.cadre_maison5
+{
+	border: 1px solid #F2F2F2;
+	width: 245px;
+	height: 190px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.maison5
+{
+	border: 1px solid white;
+	width: 237px;
+	height: 114px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.cadre_maison6
+{
+	border: 1px solid #F2F2F2;
+	width: 245px;
+	height: 190px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.maison6
+{
+	border: 1px solid white;
+	width: 237px;
+	height: 114px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;	
+}
