@@ -284,3 +284,165 @@ h1
 	line-height: 20px;
 	color: #0065fc;
 }
+
+
+/* <<<< ARTICLE DESKTOP >>>> */
+
+
+.article1
+{
+	margin-top: 30px;
+	border: 2px solid #F2F2F2;
+	border-radius: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #F2F2F2;
+	width: 870px;
+	height: 575px;
+}	
+
+h2
+{
+	padding-top: 20px;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.gros_cadre
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.cadre_maison1
+{
+	border: 1px solid #F2F2F2;
+	width: 245px;
+	height: 190px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 2px 2px 3px #dbd0d0;
+}
+.maison1
+{
+	border: 1px solid white;
+	width: 237px;
+	height: 114px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+
+}
+
+.cadre_maison2
+{
+	border: 1px solid #F2F2F2;
+	width: 245px;
+	height: 190px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 2px 2px 3px #dbd0d0;
+}
+
+.maison2
+{
+	border: 1px solid white;
+	width: 237px;
+	height: 114px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.cadre_maison3
+{
+	border: 1px solid #F2F2F2;
+	width: 245px;
+	height: 190px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 2px 2px 3px #dbd0d0;
+}
+
+.maison3
+{
+	border: 1px solid white;
+	width: 237px;
+	height: 114px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.cadre_maison4
+{
+	border: 1px solid #F2F2F2;
+	width: 245px;
+	height: 190px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 2px 2px 3px #dbd0d0;
+}
+
+.maison4
+{
+	border: 1px solid white;
+	width: 237px;
+	height: 114px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.cadre_maison5
+{
+	border: 1px solid #F2F2F2;
+	width: 245px;
+	height: 190px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 2px 2px 3px #dbd0d0;
+}
+
+.maison5
+{
+	border: 1px solid white;
+	width: 237px;
+	height: 114px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.cadre_maison6
+{
+	border: 1px solid #F2F2F2;
+	width: 245px;
+	height: 190px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 2px 2px 3px #dbd0d0;
+}
+
+.maison6
+{
+	border: 1px solid white;
+	width: 237px;
+	height: 114px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;	
+}
+
+h3
+{
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 10px;
+}
