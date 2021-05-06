@@ -454,5 +454,26 @@ h3
 	border: 1px solid #F2F2F2;
 	background-color: #F2F2F2;
 	width: 420px;
-	height: 575px;
+	height: 630px;
+	border-radius: 25px;
+}
+
+.home1
+{
+	width: 130px;
+	height: 130px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.cadre_home1
+{
+	border: 1px solid white;
+	width: 345px;
+	height: 200px;
+	background-color: white;
+	border-radius: 10px;
+
 }
