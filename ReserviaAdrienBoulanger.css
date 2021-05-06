@@ -461,7 +461,7 @@ h3
 	border-radius: 25px;
 }
 
-.home1
+.home
 {
 	width: 130px;
 	height: 130px;
@@ -469,11 +469,9 @@ h3
 	border-bottom-left-radius: 10px;
 	margin-left: 5px;
 	margin-top: 5px;
-	
-
 }
 
-.cadre_home1
+.cadre_home
 {
 	border: 1px solid white;
 	width: 345px;
@@ -485,11 +483,9 @@ h3
 	margin-left: 30px;
 	margin-right: 30px;
 	box-shadow: 2px 2px 3px #dbd0d0;
-	
-	
 }
 
-.carré1_aside
+.carré_aside
 {
 	display: flex;
 	flex-direction: column;
@@ -497,19 +493,24 @@ h3
 
 }
 
-.titre1_aside
+.titre_aside
 {
 	padding-bottom: 10px;
 	padding-top: 20px;
 	font-weight: bold;
 }
 
-.tarif1
+.tarif
 {
 	padding-bottom: 10px;
 }
 
-.star_1
+.star
 {
 	color: #0065fc;
+}
+
+span
+{
+	color: #F2F2F2;
 }
