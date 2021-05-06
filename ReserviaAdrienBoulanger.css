@@ -447,7 +447,10 @@ h3
 	padding-left: 10px;
 }
 
+
+
 /* <<<< ASIDE DESKTOP >>> */
+
 
 #aside_section
 {
@@ -458,7 +461,21 @@ h3
 	border-radius: 25px;
 }
 
-.home1
+.fleche
+{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+	padding-top: 30px;
+
+}
+
+.fleche_logo
+{
+	padding-right: 15px;
+}
+
+.home
 {
 	width: 130px;
 	height: 130px;
@@ -468,12 +485,48 @@ h3
 	margin-top: 5px;
 }
 
-.cadre_home1
+.cadre_home
 {
 	border: 1px solid white;
 	width: 345px;
-	height: 200px;
+	height: 140px;
 	background-color: white;
 	border-radius: 10px;
+	display: flex;
+	text-align: justify;
+	margin-left: 30px;
+	margin-right: 30px;
+	box-shadow: 2px 2px 3px #dbd0d0;
+	margin-bottom: 25px;
 
+}
+
+.carré_aside
+{
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+
+}
+
+.titre_aside
+{
+	padding-bottom: 10px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+.tarif
+{
+	padding-bottom: 10px;
+}
+
+.star
+{
+	color: #0065fc;
+}
+
+span
+{
+	color: #dbd0d0;
 }
