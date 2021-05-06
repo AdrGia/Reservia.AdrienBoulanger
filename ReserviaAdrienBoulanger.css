@@ -461,6 +461,20 @@ h3
 	border-radius: 25px;
 }
 
+.fleche
+{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+	padding-top: 30px;
+
+}
+
+.fleche_logo
+{
+	padding-right: 15px;
+}
+
 .home
 {
 	width: 130px;
