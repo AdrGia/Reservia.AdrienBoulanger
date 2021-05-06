@@ -447,7 +447,10 @@ h3
 	padding-left: 10px;
 }
 
+
+
 /* <<<< ASIDE DESKTOP >>> */
+
 
 #aside_section
 {
@@ -466,14 +469,47 @@ h3
 	border-bottom-left-radius: 10px;
 	margin-left: 5px;
 	margin-top: 5px;
+	
+
 }
 
 .cadre_home1
 {
 	border: 1px solid white;
 	width: 345px;
-	height: 200px;
+	height: 140px;
 	background-color: white;
 	border-radius: 10px;
+	display: flex;
+	text-align: justify;
+	margin-left: 30px;
+	margin-right: 30px;
+	box-shadow: 2px 2px 3px #dbd0d0;
+	
+	
+}
 
+.carré1_aside
+{
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+
+}
+
+.titre1_aside
+{
+	padding-bottom: 10px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+.tarif1
+{
+	padding-bottom: 10px;
+}
+
+.star_1
+{
+	color: #0065fc;
 }
