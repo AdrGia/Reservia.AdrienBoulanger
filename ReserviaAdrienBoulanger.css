@@ -344,6 +344,10 @@ h3
 	padding-left: 10px;
 }
 
+.starblue
+{
+	color: #0065fc;
+}
 
 
 /* <<<< ASIDE DESKTOP >>> */
@@ -423,7 +427,7 @@ h3
 	color: #0065fc;
 }
 
-span
+.stargrey
 {
 	color: #dbd0d0;
 }
