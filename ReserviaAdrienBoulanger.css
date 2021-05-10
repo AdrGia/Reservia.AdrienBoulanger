@@ -482,3 +482,12 @@ h3
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
+
+.mars-content-2
+{
+	border: 1px solid #F2F2F2;
+	width: 305px;
+	height: 245px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #dbd0d0;
+}
