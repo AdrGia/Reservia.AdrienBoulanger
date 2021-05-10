@@ -441,10 +441,53 @@ h3
 .content
 {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 
 }
 
 
 /* <<<< SECTION 2 >>>> */
 
+#section2
+{
+	font-weight: bold;
+}
+
+.mars-img
+{
+	width: 300px;
+	height: 380px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.mars-content
+{
+	border: 1px solid #F2F2F2;
+	width: 300px;
+	height: 445px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #dbd0d0;
+}
+
+.mars
+{
+	padding-left: 10px;
+}
+
+.mars-img2
+{
+	width: 305px;
+	height: 195px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.mars-content-2
+{
+	border: 1px solid #F2F2F2;
+	width: 305px;
+	height: 245px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #dbd0d0;
+}
