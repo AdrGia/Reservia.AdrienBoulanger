@@ -167,7 +167,6 @@ h1
 	border-bottom-right-radius: 20px;
 	border-top-left-radius: 25px;
 	border-bottom-left-radius: 25px;
-
  	
 }
 
@@ -438,3 +437,14 @@ h3
 {
 	color: #dbd0d0;
 }
+
+.content
+{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+/* <<<< SECTION 2 >>>> */
+
