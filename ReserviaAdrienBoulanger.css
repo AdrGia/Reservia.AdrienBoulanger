@@ -491,3 +491,15 @@ h3
 	border-radius: 10px;
 	box-shadow: 3px 3px 6px #dbd0d0;
 }
+
+.mars-mars
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.mars-column
+{
+	display: flex;
+	flex-direction: column;
+}
