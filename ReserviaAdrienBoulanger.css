@@ -490,4 +490,18 @@ h3
 	height: 245px;
 	border-radius: 10px;
 	box-shadow: 3px 3px 6px #dbd0d0;
+	margin-bottom: 25px;
+}
+
+.mars-mars
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.mars-column
+{
+	display: flex;
+	flex-direction: column;
 }
