@@ -167,11 +167,10 @@ h1
 	border-bottom-right-radius: 20px;
 	border-top-left-radius: 25px;
 	border-bottom-left-radius: 25px;
- 	
+	color: black; 	
 }
 
 .pan
-
 {
 
 	padding-right: 10px;
@@ -289,6 +288,11 @@ h1
 	text-align: center;
 	line-height: 20px;
 	color: #0065fc;
+}
+
+.button-link
+{
+	text-decoration: none;
 }
 
 
@@ -435,6 +439,11 @@ h3
 	color: #0065fc;
 }
 
+.star-decoration
+{
+	text-decoration: none;
+}
+
 .stargrey
 {
 	color: #dbd0d0;
@@ -477,6 +486,7 @@ h3
 .mars
 {
 	padding-left: 10px;
+	color: black;
 }
 
 .mars-img2
@@ -544,5 +554,6 @@ ul
 li
 {
 	padding-top: 10px;
+
 
 }
