@@ -340,7 +340,7 @@ h2
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 	padding-bottom: 5px;
-
+	object-fit: cover;
 }
 
 
@@ -354,9 +354,8 @@ h3
 .starblue
 {
 	color: #0065fc;
+
 }
-
-
 
 
 /* <<<< ASIDE DESKTOP >>> */
@@ -393,6 +392,7 @@ h3
 	border-bottom-left-radius: 20px;
 	margin-left: 5px;
 	margin-top: 5px;
+	object-fit: cover;
 }
 
 .cadre_home
@@ -462,6 +462,7 @@ h3
 	height: 380px;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
+	object-fit: cover;
 }
 
 .mars-content
@@ -484,6 +485,7 @@ h3
 	height: 195px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	object-fit: cover;
 }
 
 .mars-content-2
