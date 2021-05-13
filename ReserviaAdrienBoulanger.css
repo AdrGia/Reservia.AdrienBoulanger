@@ -110,7 +110,7 @@ h1 {
 
 .Marseille {
 	outline: none;
-	color: #F2F2F2;
+	color: black;
 	padding: 5px;
 }
 
@@ -160,6 +160,8 @@ h1 {
 
 .button {
 
+	display: flex;
+	align-items: center;
  	border-bottom: 2px solid #F2F2F2;
 	border-right: 2px solid #F2F2F2;
 	border-top: 2px solid #F2F2F2;
@@ -260,6 +262,7 @@ h2 {
 	background-color: white;
 	box-shadow: 2px 2px 3px #dbd0d0;
 	color: black;
+	cursor: pointer;
 }
 
 
@@ -281,17 +284,13 @@ h4 {
 	font-weight: bold;
 	padding-left: 10px;
 	color: black;
+	cursor: pointer;
 }
 
 
 .starblue {
 
 	color: #0065fc;
-}
-
-.starblue :hover {
-
-	color: #dbd0d0;
 }
 
 
@@ -382,10 +381,6 @@ h4 {
 	color: #dbd0d0;
 }
 
-.stargrey :hover {
-
-	color: #0065fc;
-}
 
 .content {
 
