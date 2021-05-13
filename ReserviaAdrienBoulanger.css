@@ -73,11 +73,6 @@ body {
 	padding-top: 35px;
 }
 
-.Activités-link :hover {
-
-	color: #0065fc;
-	border-top: 2px solid #0065fc;
-}
 
 .inscrire-link {
 
@@ -244,6 +239,7 @@ h2 {
 	padding-top: 20px;
 	font-size: 16px;
 	padding-left: 10px;
+	color: black;
 }
 
 .gros_cadre {
@@ -430,7 +426,6 @@ h3 {
 	border-radius: 10px;
 	box-shadow: 3px 3px 6px #dbd0d0;
 }
-	
 
 .mars {
 
@@ -462,6 +457,7 @@ h3 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	padding-top: 20px;
 }
 
 .mars-column {
