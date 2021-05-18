@@ -39,7 +39,7 @@ body {
 
 	width: 100px;
 	margin-top: 20px;
-	margin-left: -37px;
+	
 }
 
 
@@ -174,7 +174,7 @@ h1 {
 
 .pan {
 
-	padding-right: 10px;
+	padding-right: 5px;
 }
 
 #logo-filters {
@@ -517,4 +517,28 @@ li {
 h5 {
 
 	font-size: 16px;
+}
+
+/* <<<< Responsive >>>> */
+
+@media screen and (max-width: 1390px) {
+
+	.body{
+
+		width: auto;
+	}
+
+	.article-page {
+
+		flex-wrap: wrap-reverse;
+	}
+}	
+
+@media screen and (max-width: 830px){
+
+	.article {
+
+		border: none;
+		background-color: white;
+	}
 }
