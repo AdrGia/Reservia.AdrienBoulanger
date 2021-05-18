@@ -540,5 +540,28 @@ h5 {
 
 		border: none;
 		background-color: white;
+		width: auto;
+		height: auto;
 	}
+
+	.
+}
+
+@media screen and (max-width: 570px){
+
+		.frame-activities{
+
+			flex-direction: column;
+		}
+	
+		.article {
+
+			margin-left: 0 auto;
+		}
+
+		.large-frame{
+
+			justify-content: space-between;
+			width: 100%;
+		}
 }
