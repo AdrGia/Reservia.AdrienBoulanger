@@ -12,6 +12,7 @@ body {
 
 	font-family: 'ralewaythin', Arial, sans-serif;
 	max-width: 1440px;
+	margin: auto;
 	font-size: 16px;
 	color: black;
 }
@@ -438,6 +439,7 @@ h3 {
 	height: 445px;
 	border-radius: 10px;
 	box-shadow: 3px 3px 6px #dbd0d0;
+	cursor: pointer;
 }
 
 .activites {
@@ -463,6 +465,7 @@ h3 {
 	border-radius: 10px;
 	box-shadow: 3px 3px 6px #dbd0d0;
 	margin-bottom: 25px;
+	cursor: pointer;
 }
 
 .frame-activities {
@@ -523,10 +526,6 @@ h5 {
 
 @media screen and (max-width: 1390px) {
 
-	.body {
-
-		width: auto;
-	}
 
 	.article-page {
 
@@ -543,6 +542,12 @@ h5 {
 		margin-top: 30px;
 	}
 
+	.footer {
+
+		width: 100%;
+	}
+
+
 }	
 
 @media screen and (max-width: 830px) {
@@ -552,12 +557,22 @@ h5 {
 		border: none;
 		background-color: white;
 		width: auto;
-		height: auto;
+		height: auto;	
 	}
 
 	.filters {
 
 		flex-wrap: wrap;
+	}
+
+	.button-link {
+
+		margin-bottom: 10px;
+	}
+
+	.footer {
+
+		width: 100%;
 	}
 
 }
@@ -567,7 +582,6 @@ h5 {
 		.frame-activities {
 
 			flex-direction: column;
-			align-items: center;
 		}
 
 		.activites-content {
@@ -593,5 +607,24 @@ h5 {
 		.large-frame {
 
 		align-content: center;
+		
 		}
+
+		.frame2 {
+
+			margin-bottom: 20px;
+		}
+
+		.aside-section {
+
+			border-radius: 0px;
+			width: 100%;
+			height: 100%;
+		}
+
+		.resgister-link {
+
+			justify-content: flex-end;
+		}
+
 }
