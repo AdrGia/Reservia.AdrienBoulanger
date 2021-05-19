@@ -336,6 +336,7 @@ h4 {
 .arrow-logo {
 
 	padding-right: 15px;
+	cursor: pointer;
 }
 
 .arrow-logo :hover {
@@ -366,6 +367,7 @@ h4 {
 	margin-right: 30px;
 	box-shadow: 2px 2px 3px #dbd0d0;
 	margin-bottom: 25px;
+	cursor: pointer;
 }
 
 
@@ -540,11 +542,18 @@ h5 {
 	.aside-section {
 
 		margin-top: 30px;
+
 	}
 
 	.footer {
 
 		width: 100%;
+	}
+
+	.frame-home {
+
+		display: flex;
+		align-content: flex-end;
 	}
 
 
@@ -625,6 +634,11 @@ h5 {
 		.resgister-link {
 
 			justify-content: flex-end;
+		}
+
+		.activity-link, .accommodation-link {
+
+
 		}
 
 }
