@@ -680,15 +680,32 @@ nav:hover {
 
 	border-radius: 0%;
 	width: 95%;
-	margin: 0;
-	justify-content: center;
+	margin-left: 20px;
 }
 
 .frame-home {
 
-
 	width: 95%;
 	margin-left: 5px;
-	margin-right: 0%;
+}
+
+footer {
+
+	flex-direction: column;
+
+}
+
+.footer {
+
+	margin-left: 20px;
+}
+
+ul {
+	font-size: 16px;
+}
+
+h5 {
+
+	font-size: 20px;
 }
 }
