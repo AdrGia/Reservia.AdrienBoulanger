@@ -326,6 +326,12 @@ h4 {
 	margin-top: 5px;
 }
 
+.price {
+
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
 
 /* <<<< ASIDE DESKTOP >>> */
 
@@ -637,7 +643,7 @@ h5 {
 
 /* <<<<< MOBILE/PETITE TABLETTE >>>> */
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 635px) {
 
 
 .frame-activities {
