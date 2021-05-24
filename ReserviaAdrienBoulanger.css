@@ -300,7 +300,7 @@ h2 {
 .hostel {
 
 	border: 1px solid white;
-	width: 237px;
+	width: 97%;
 	height: 114px;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
@@ -522,7 +522,7 @@ footer {
 ul {
 
 	list-style-type: none;
-	font-size: 13px;
+	font-size: 14px;
 	padding : 0;	
 }
 
@@ -559,9 +559,10 @@ h5 {
 	.aside-section {
 
 		margin-top: 30px;
+		margin-bottom: 20px;
 	}
 
-	.footer {
+	footer {
 
 		width: 100%;
 	}
@@ -571,10 +572,13 @@ h5 {
 		display: flex;
 		align-content: flex-end;
 	}
+	.frame-activities {
 
+		width: 98%;
+	}
 }	
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 930px) {
 
 	.article {
 
@@ -594,11 +598,41 @@ h5 {
 		margin-bottom: 10px;
 	}
 
+	footer {
+
+	flex-direction: column;
+
+}
+
 	.footer {
 
-		width: 100%;
+	
+	text-align: center;
+}
+
+	ul {
+	font-size: 16px;
+}
+
+	h5 {
+
+	font-size: 20px;
+}
+
+	.large-frame {
+
+		justify-content: space-around;
 	}
 
+	.frame-activities {
+
+		justify-content: space-around;
+	}
+
+	.aside-section {
+
+
+	}
 }
 
 /* <<<<< MOBILE/PETITE TABLETTE >>>> */
@@ -676,7 +710,7 @@ nav:hover {
 
 .hostel {
 
-	width: 100%;
+	width: 99%;
 }
 
 .aside-section {
@@ -692,28 +726,9 @@ nav:hover {
 	margin-left: 5px;
 }
 
-footer {
-
-	flex-direction: column;
-
-}
-
 .footer {
 
 	margin-left: 20px;
-}
-
-ul {
-	font-size: 16px;
-}
-
-h5 {
-
-	font-size: 20px;
-}
-
-.resgister-link {
-
-
+	text-align: left;
 }
 }
