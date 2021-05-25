@@ -99,8 +99,7 @@ nav {
 
 section {
 
-	margin-left: 20px;
-	margin-top: 43px;
+	padding: 10px;
 }
 
 h1 {
@@ -170,7 +169,6 @@ h1 {
 .filters {
 
 	display: flex;
-	justify-content: space-between;
 	padding-top: 15px;
 	font-weight: bold;
 	margin-right: 30%;
@@ -188,7 +186,8 @@ h1 {
 	border-bottom-right-radius: 30px;
 	border-top-left-radius: 40px;
 	border-bottom-left-radius: 40px;
-	color: black; 	
+	color: black; 
+	margin-left: 
 }
 
 .pan {
@@ -252,8 +251,6 @@ h1 {
 	padding-right: 10px;
 	background-color: #F2F2F2;
 	margin-right: 10px;
-
-	
 	
 }	
 
@@ -286,7 +283,6 @@ h2 {
 	color: black;
 	cursor: pointer;
 	margin: 20px;
-
 
 }
 
@@ -341,7 +337,6 @@ h4 {
 	background-color: #F2F2F2;
 	height: 650px;
 	border-radius: 25px;
-	margin-left: 20px;
 }
 
 .arrow {
@@ -551,21 +546,12 @@ h5 {
 		width: 100%;
 	}
 
-	.article-page {
-
-		flex-wrap: wrap-reverse;
-	}
 
 	.filters{
 
 		width: auto; 
 	}
 
-	.aside-section {
-
-		margin-top: 30px;
-		margin-bottom: 20px;
-	}
 
 	footer {
 
@@ -590,7 +576,8 @@ h5 {
 		border: none;
 		background-color: white;
 		width: auto;
-		height: auto;	
+		height: auto;
+		order: 1;
 	}
 
 	.filters {
@@ -634,15 +621,23 @@ h5 {
 		justify-content: space-around;
 	}
 
-	.aside-section {
+.article-page {
 
+	flex-direction: column;
+	order: 2;
+}
 
-	}
 }
 
 /* <<<<< MOBILE/PETITE TABLETTE >>>> */
 
 @media screen and (max-width: 635px) {
+
+
+.aside-section {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
 
 
 .frame-activities {
@@ -727,7 +722,7 @@ nav:hover {
 
 	border-radius: 0%;
 	width: 95%;
-	margin-left: 20px;
+	padding-left: 20px;
 }
 
 .frame-home {
@@ -759,5 +754,17 @@ h1 {
 	display: flex;
 	
 }
+
+.article-page {
+
+	flex-direction: column;
+	order: 2;
+}
+
+.article {
+
+		order: 1;
+	
+	}
 
 }
