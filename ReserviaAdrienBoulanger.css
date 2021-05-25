@@ -111,6 +111,7 @@ h1 {
 .p1 {
 
 	font-weight: bold;
+	margin-bottom: 30px;
 }
 
 .localisation {
@@ -123,6 +124,7 @@ h1 {
 	border-bottom-left-radius: 15px;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
+	margin-bottom: 20px;
 
 }
 
@@ -698,6 +700,7 @@ nav:hover {
 	border-top: none;
 	margin-left: 15%;
 	margin-bottom: 10px;
+	font-size: 18px;
 }
 
 
@@ -705,18 +708,21 @@ nav:hover {
 
 	margin-right: 15%;
 	margin-bottom: 10px;
+	font-size: 18px;
 }
 
 .frame1 {
 
 	width : 100%;
 	margin-left: 0;
+	height: 245px;
 
 }
 
 .hostel {
 
 	width: 99%;
+	height: 165px;
 }
 
 .aside-section {
@@ -737,4 +743,12 @@ nav:hover {
 	margin-left: 20px;
 	text-align: left;
 }
+
+h1 {
+
+	
+	font-size: 25px;
+}
+
+
 }
