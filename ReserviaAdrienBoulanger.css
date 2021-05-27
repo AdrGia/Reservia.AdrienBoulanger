@@ -159,6 +159,7 @@ h1 {
 	border-bottom-right-radius: 10px;
 	border-top-right-radius: 10px;
 	text-decoration: none;
+	cursor: pointer;
 
 	}
 
@@ -573,13 +574,13 @@ h5 {
 	}
 }	
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1046px) {
 
 	.article {
 
 		border: none;
 		background-color: white;
-		width: auto;
+		width: 100%;
 		height: auto;
 		order: 1;
 	}
@@ -636,9 +637,11 @@ h5 {
 
 }
 
+
+
 /* <<<<< MOBILE/PETITE TABLETTE >>>> */
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 597px) {
 
 
 .aside-section {
@@ -656,8 +659,8 @@ h5 {
 .activites-content, .activites-content-2 {
 
 	border: 1px solid #F2F2F2;
-	width: 90%;
-	height: 245px;
+	width: 95%;
+	height: 250px;
 	margin: auto;
 	border-radius: 10px;
 	box-shadow: 3px 3px 6px #dbd0d0;
@@ -771,6 +774,7 @@ h1 {
 	border-radius: 10px;
 	text-decoration: none;
 	margin-left: 20px;
+	cursor: pointer;
 	
 }
 
