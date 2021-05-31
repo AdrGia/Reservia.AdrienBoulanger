@@ -194,7 +194,7 @@ h1 {
 .filters {
 
 	display: flex;
-	padding-top: 15px;
+	margin-top: 15px;
 	font-weight: bold;
 	
 }
@@ -212,7 +212,7 @@ h1 {
 	border-top-left-radius: 50px;
 	border-bottom-left-radius: 50px;
 	color: black; 
-	margin-left: 50px;
+	margin-left: 30px;
 	cursor: pointer;
 
 }
@@ -614,12 +614,12 @@ h5 {
 
 		flex-wrap: wrap;
 
-		
 	}
 
 	.button {
 
 		margin-bottom: 10px;
+
 	}
 
 
@@ -677,6 +677,8 @@ h5 {
 
 		width: 60%;	
 	}
+
+
 
 }
 
@@ -863,20 +865,17 @@ h1 {
 
 .article {
 
-		order: 1;
+	order: 1;
 	
-	}
+}
 
 .logo-reservia img {
 	
 	order: 1;
-	}
-
+}
 .title-filters {
 
-	display: flex;
+	width: 300px;
+	height: auto;
 }
-
-}
-
 }
