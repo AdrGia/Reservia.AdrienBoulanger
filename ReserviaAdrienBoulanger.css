@@ -207,11 +207,11 @@ h1 {
 
 	display: flex;
 	align-items: center;
- 	border-bottom: 2px solid #F2F2F2;
-	border-right: 2px solid #F2F2F2;
-	border-top: 2px solid #F2F2F2;
-	border-top-right-radius: 40px;
-	border-bottom-right-radius: 40px;
+ 	border-bottom: 3px solid #F2F2F2;
+	border-right: 3px solid #F2F2F2;
+	border-top: 3px solid #F2F2F2;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
 	border-top-left-radius: 50px;
 	border-bottom-left-radius: 50px;
 	color: black; 
@@ -227,7 +227,7 @@ h1 {
 
 #logo-filters {
 
-	border: 2px solid #F2F2F2;
+	border: 2px solid #DEEBFF;
 	border-radius: 50%;
 	height: 25px;
 	width: 25px;
@@ -237,6 +237,7 @@ h1 {
 	padding: 0.5rem;
 	background-color: #DEEBFF;
 	color: #0065fc;
+	
 }
 
 .info {
@@ -279,7 +280,7 @@ h1 {
 	padding-left: 10px;
 	padding-right: 10px;
 	background-color: #F2F2F2;
-	margin-right: 10px;
+	margin-right: 20px;
 	
 }	
 
@@ -296,6 +297,7 @@ h2 {
 
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 	
 }
 
@@ -311,7 +313,7 @@ h2 {
 	box-shadow: 2px 2px 3px #dbd0d0;
 	color: black;
 	cursor: pointer;
-	margin: 20px;
+	margin-bottom: 20px;
 
 }
 
@@ -394,12 +396,10 @@ h4 {
 .home {
 
 	width: 130px;
-	height: 130px;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
-	margin-left: 5px;
-	margin-top: 5px;
 	object-fit: cover;
+	padding: 5px;
 }
 
 .frame-home {
@@ -608,7 +608,7 @@ h5 {
 
 		border: none;
 		background-color: white;
-		width: 100%;
+		margin-right: 0px;
 		height: auto;
 		order: 1;
 	}
@@ -664,29 +664,24 @@ h5 {
 		flex-direction: column;
 		order: 2;
 }
-	.frame1 {
-
-		margin-right: 30px;
-	}
 
 	.aside-section {
 
-		width: 500px;
-		margin-left: 100px;
+		width: 100%;
 
 	}
 
 	.frame-home {
 
-		width: 65%;	
-		margin-left: 20%;
+		width: 55%;	
+		margin-left: 25%;
 	}
 
 }
 
 /* <<<<< MOBILE/PETITE TABLETTE >>>> */
 
-@media screen and (max-width: 597px) {
+@media screen and (max-width: 637px) {
 
 
 
@@ -757,13 +752,13 @@ nav .register-link {
 .activites-content, .activites-content-2 {
 
 	border: 1px solid #F2F2F2;
-	width: 95%;
+	width: 100%;
 	height: 250px;
 	margin: auto;
 	border-radius: 10px;
 	box-shadow: 3px 3px 6px #dbd0d0;
 	margin-bottom: 25px;
-	margin-left: 10px;
+	
 }
 
 .activites-img, .activites-img2 {
@@ -787,7 +782,7 @@ nav .register-link {
 	width : 100%;
 	margin-left: 0;
 	height: 250px;
-	margin-right: 30px;
+	
 
 
 }
@@ -814,11 +809,6 @@ nav .register-link {
 	margin-left: 7%;
 
 
-}
-
-.home {
-
-	height: 160px;
 }
 
 .footer {
@@ -881,4 +871,5 @@ h1 {
 	width: 300px;
 	height: auto;
 }
+
 }
