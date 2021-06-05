@@ -86,7 +86,6 @@ nav .register-link {
 .list-navigation li a {
 
 	color: black;
-	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -427,7 +426,7 @@ h4 {
 
 .title-aside {
 
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	padding-top: 20px;
 	font-weight: bold;
 	color: black;
@@ -435,7 +434,7 @@ h4 {
 
 .tariff {
 
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	color: black;
 }
 
@@ -461,6 +460,14 @@ h3 {
 	font-size: 16px;
 	font-weight: bold;
 	padding-left: 10px;
+}
+
+.starblue2 {
+
+	color: #0065fc;
+	
+	padding-left: 5px;
+	padding-bottom: 10px;
 }
 
 
@@ -542,7 +549,7 @@ footer {
 	background-color: #F2F2F2;
 	padding: 50px 0;
 	margin-top: 20px;
-	font-weight: bold;
+	
 	
 }
 
@@ -562,11 +569,13 @@ ul {
 li {
 
 	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 h5 {
 
 	font-size: 16px;
+	font-weight: bold;
 }
 
 /* <<<< Responsive >>>> */
@@ -692,26 +701,27 @@ h5 {
 .logo-reservia {
     position: absolute;
     top: 15px;
-    left: 25px;
+    left: 35px;
     margin: -40px;
 
   }
 
   nav {
-    margin-top: 42px;
+    margin-top: 30px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 20px;
-    padding-top: 40px;
+    padding-top: 30px;
   }
 
 nav .register-link {
     position: absolute;
     top: 5px;
     right: 25px;
+
   }
 
 .list-navigation {
@@ -780,11 +790,24 @@ nav .register-link {
 .frame1 {
 
 	width : 100%;
-	margin-left: 0;
+	margin-left: -10px;
 	height: 250px;
 	
+}
 
+.motel {
 
+	padding-left: 10px;
+}
+
+.price {
+
+	padding-left: 10px;
+}
+
+.starblue {
+
+	padding-left: 10px;
 }
 
 .hostel {
