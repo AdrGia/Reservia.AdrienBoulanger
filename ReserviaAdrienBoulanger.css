@@ -138,15 +138,13 @@ h1 {
 	display: flex;
 	align-items: center;
 	align-content: center;
-	width: 400px;
+	width: 285px;
 	height: 50px;
-	border: 2px solid #F2F2F2;
+	border-top: 2px solid #F2F2F2;
+	border-bottom: 2px solid #F2F2F2;
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-
-
+	
 }
 
 .search {
@@ -183,6 +181,7 @@ h1 {
 	text-decoration: none;
 	cursor: pointer;
 	text-align: center;
+	height: 18.5px;
 
 
 	}
@@ -369,7 +368,7 @@ h4 {
 
 	border: 1px solid #F2F2F2;
 	background-color: #F2F2F2;
-	height: 650px;
+	height: 100%;
 	border-radius: 25px;
 }
 
@@ -807,9 +806,11 @@ nav .register-link {
 	padding-left: 10px;
 }
 
-.starblue {
+ aside .starblue {
 
 	padding-left: 10px;
+	position: relative;
+	bottom: 10px;
 }
 
 .hostel {
@@ -824,6 +825,7 @@ nav .register-link {
 	width: 100%;
 	margin: 0 auto;
 	height: 750px;
+	position: relative;
 }
 
 .frame-home {
@@ -848,6 +850,8 @@ h1 {
 .research2 {
 
 	display: none;
+	position: relative;
+	left: -50px;
 	
 }
 
@@ -855,22 +859,23 @@ h1 {
 
 	display: block;
 	padding-left: 16px;
-	padding-top: 20px;
+	padding-top: 22px;
 	padding-right: 15px;
-	padding-bottom: 17px;
+	padding-bottom: 19px;
 	color: white;
 	font-weight: bold;
 	background: #0065fc;
 	border-radius: 12px;
 	text-decoration: none;
-	margin-left: 37px;
+	margin-left: -30px;
 	cursor: pointer;
+
 	
 }
 
 .localisation {
 
-	width: 345px;
+	width: 255px;
 }
 .article-page {
 
