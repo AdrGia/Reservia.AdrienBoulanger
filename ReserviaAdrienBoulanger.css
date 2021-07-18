@@ -105,7 +105,7 @@ nav .register-link {
 
 	color: #0065fc;
 }
-/* <<<< SECTION DESKTOP >>>> */
+/* <<<< SECTION DESKTOP >>>>> */
 
 section {
 
@@ -258,7 +258,7 @@ h1 {
 }
 
 
-/* <<<< ARTICLE DESKTOP >>>> */
+/* <<<< ARTICLE DESKTOP >>> */
 
 
 .article {
@@ -356,7 +356,7 @@ h4 {
 }
 
 
-/* <<<< ASIDE DESKTOP >>> */
+/* <<<< ASIDE DESKTOP >>>> */
 
 
 .aside-section {
@@ -694,7 +694,7 @@ h5 {
 
 }
 
-/* <<<< MOBILE/PETITE TABLETTE >>> */
+/* <<<< MOBILE/PETITE TABLETTE >>>> */
 
 @media screen and (max-width: 637px) {
 
